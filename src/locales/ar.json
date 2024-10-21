@@ -1,14 +1,8 @@
 {
     "titles": {
-        "trending": "محتوى رائج",
-        "login": "تسجيل الدخول",
-        "register": "إنشاء حساب",
         "preferences": "الإعدادات",
         "history": "سجل المشاهدة",
-        "subscriptions": "الإشتراكات",
-        "playlists": "قوائم التشغيل",
-        "feed": "محتوى الإشتراكات",
-        "account": "الحساب",
+ "account": "الحساب",
         "instance": "الخادم",
         "player": "المشغل",
         "livestreams": "البثوث المباشرة",
