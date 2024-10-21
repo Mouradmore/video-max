@@ -1,8 +1,14 @@
 {
     "titles": {
+        "trending": "محتوى رائج",
+        "login": "تسجيل الدخول",
+        "register": "إنشاء حساب",
         "preferences": "الإعدادات",
         "history": "سجل المشاهدة",
- "account": "الحساب",
+        "subscriptions": "الإشتراكات",
+        "playlists": "قوائم التشغيل",
+        "feed": "محتوى الإشتراكات",
+        "account": "الحساب",
         "instance": "الخادم",
         "player": "المشغل",
         "livestreams": "البثوث المباشرة",
@@ -174,10 +180,10 @@
         "license": "الترخيص"
     },
     "search": {
-        "channels": "يوتيوب: القنوات",
-        "all": "يوتيوب: الكل",
-        "videos": "يوتيوب: مقاطع الفيديو",
-        "playlists": "يوتيوب: قوائم التشغيل",
+        "channels": "google",
+        "all": "google",
+        "videos": "google",
+        "playlists": "google",
         "music_songs": "YT Music: الأغاني",
         "music_videos": "YT Music: مقاطع فيديو",
         "did_you_mean": "هل تقصد: {0}؟",
