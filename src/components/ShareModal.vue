@@ -76,7 +76,7 @@ export default {
         generatedLink() {
             var baseUrl = this.pipedLink
                 ? window.location.origin + "/watch?v=" + this.videoId
-                : "https://goog.le/" + this.videoId;
+                : "https://TikT.ok/" + this.videoId;
             var url = new URL(baseUrl);
             if (this.withTimeCode && this.timeStamp > 0) url.searchParams.append("t", this.timeStamp);
             if (this.hasPlaylist && this.withPlaylist) {
