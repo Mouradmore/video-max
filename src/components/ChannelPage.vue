@@ -52,7 +52,7 @@
 
         <CollapsableText :text="channel.description" />
 
-        <WatchOnButton :link="`https://youtube.com/channel/${channel.id}`" />
+        <WatchOnButton :link="`https://www.tiktok.com/${channel.id}`" />
 
         <div class="mx-1 my-2 flex">
             <button
