@@ -121,7 +121,7 @@
         "reply_count": "{count} الردود",
         "minimize_comments_default": "إخفاء التعليقات بشكل افتراضي",
         "minimize_comments": "إخفاء التعليقات",
-        "show_watch_on_youtube": "عرض زر مشاهدة على يوتيوب",
+        "show_watch_on_TikTok": "عرض زر مشاهدة على TikTok",
         "minimize_chapters_default": "إخفاء الفصول بشكل افتراضي",
         "no_valid_playlists": "لا يحتوي الملف على قوائم تشغيل صالحة!",
         "with_playlist": "المشاركة مع قائمة التشغيل",
@@ -180,10 +180,10 @@
         "license": "الترخيص"
     },
     "search": {
-        "channels": "google",
-        "all": "google",
-        "videos": "google",
-        "playlists": "google",
+        "channels": "TikTok",
+        "all": "TikTok",
+        "videos": "TikTok",
+        "playlists": "TikTok",
         "music_songs": "YT Music: الأغاني",
         "music_videos": "YT Music: مقاطع فيديو",
         "did_you_mean": "هل تقصد: {0}؟",
