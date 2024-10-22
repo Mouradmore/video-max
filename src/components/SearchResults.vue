@@ -58,7 +58,7 @@ export default {
     },
     updated() {
         if (this.$route.query.search_query !== undefined) {
-            document.title = this.$route.query.search_query + " - Piped";
+            document.title = this.$route.query.search_query + " - Tiped";
         }
     },
     activated() {
@@ -79,7 +79,7 @@ export default {
             });
         },
         async updateResults() {
-            document.title = this.$route.query.search_query + " - Piped";
+            document.title = this.$route.query.search_query + " - Tiped";
             this.results = this.fetchResults().then(json => {
                 this.results = json;
                 this.updateWatched(this.results.items);
@@ -112,8 +112,8 @@ export default {
         handleRedirect() {
             const query = this.$route.query.search_query;
             const url =
-                /(?:http(?:s)?:\/\/)?(?:www\.)? google\.com(\/[/a-zA-Z0-9_?=&-]*)/gm.exec(query)?.[1] ??
-                /(?:http(?:s)?:\/\/)?(?:www\.)?goog\.le\/(?:watch\?v=)?([/a-zA-Z0-9_?=&-]*)/gm
+                /(?:http(?:s)?:\/\/)?(?:www\.)? TikTok\.com(\/[/a-zA-Z0-9_?=&-]*)/gm.exec(query)?.[1] ??
+                /(?:http(?:s)?:\/\/)?(?:www\.)? TikT\.ok\/(?:watch\?v=)?([/a-zA-Z0-9_?=&-]*)/gm
                     .exec(query)?.[1]
                     .replace(/^/, "/watch?v=");
             if (url) {
