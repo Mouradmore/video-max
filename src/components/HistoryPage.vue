@@ -111,7 +111,7 @@ export default {
                         name: `Piped History ${dateStr}`,
                         type: "history",
                         visibility: "private",
-                        videos: this.videos.map(video => "https://youtube.com" + video.url),
+                        videos: this.videos.map(video => "https://tiktok.com" + video.url),
                     },
                 ],
             };
