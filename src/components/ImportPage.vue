@@ -15,11 +15,11 @@
             </div>
         </form>
         <br />
-        <strong>Importing Subscriptions from YouTube</strong>
+        <strong>Importing Subscriptions from TikTok</strong>
         <br />
         <div>
             Open
-            <a href="https://takeout.google.com/takeout/custom/youtube">takeout.google.com/takeout/custom/youtube</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tiktok.com/&ved=2ahUKEwig6ZLj0qKJAxVkVaQEHeQ1H98QFnoECAgQAQ&usg=AOvVaw0JUhEcsDmz7qo4x8fdyf5k">takeout.google.com/takeout/custom/youtube</a>
             <br />
             In "Select data to include", click on "All YouTube data included" and select only "subscriptions".
             <br />
