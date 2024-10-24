@@ -136,7 +136,7 @@
                             <i class="i-fa6-solid:share mx-1.5" />
                         </button>
                         <!-- YouTube -->
-                        <WatchOnButton :link="youtubeVideoHref" />
+                        <WatchOnButton :link="tiktokVideoHref" />
                         <!-- Odysee -->
                         <WatchOnButton
                             v-if="video.lbryId"
@@ -363,8 +363,8 @@ export default {
         purifiedDescription() {
             return purifyHTML(this.video.description);
         },
-        youtubeVideoHref() {
-            let link = `https://youtu.be/${this.getVideoId()}?t=${Math.round(this.currentTime)}`;
+        tiktokVideoHref() {
+            let link = `https://tikt.ok/${this.getVideoId()}?t=${Math.round(this.currentTime)}`;
             if (this.playlistId) link += `&list=${this.playlistId}`;
             return link;
         },
