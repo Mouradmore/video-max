@@ -139,11 +139,11 @@
             <option v-t="'video.chapters_vertical'" value="Vertical" />
         </select>
     </label>
-    <label class="pref" for="chkShowWatchOnYouTube">
-        <strong v-t="'actions.show_watch_on_youtube'" />
+    <label class="pref" for="chkShowWatchOnTikTok">
+        <strong v-t="'actions.show_watch_on_tiktok'" />
         <input
-            id="chkShowWatchOnYouTube"
-            v-model="showWatchOnYouTube"
+            id="chkShowWatchOnTikTok"
+            v-model="showWatchOnTikTok"
             class="checkbox"
             type="checkbox"
             @change="onChange($event)"
@@ -452,7 +452,7 @@ export default {
             minimizeDescription: true,
             minimizeRecommendations: false,
             minimizeChapters: false,
-            showWatchOnYouTube: false,
+            showWatchOnTikTok: false,
             searchSuggestions: true,
             watchHistory: false,
             searchHistory: false,
@@ -570,7 +570,7 @@ export default {
             this.minimizeDescription = this.getPreferenceBoolean("minimizeDescription", true);
             this.minimizeRecommendations = this.getPreferenceBoolean("minimizeRecommendations", false);
             this.minimizeChapters = this.getPreferenceBoolean("minimizeChapters", false);
-            this.showWatchOnYouTube = this.getPreferenceBoolean("showWatchOnYouTube", false);
+            this.showWatchOnTikTok = this.getPreferenceBoolean("showWatchOnTikTok", false);
             this.searchSuggestions = this.getPreferenceBoolean("searchSuggestions", true);
             this.watchHistory = this.getPreferenceBoolean("watchHistory", false);
             this.searchHistory = this.getPreferenceBoolean("searchHistory", false);
@@ -633,7 +633,7 @@ export default {
                 localStorage.setItem("minimizeDescription", this.minimizeDescription);
                 localStorage.setItem("minimizeRecommendations", this.minimizeRecommendations);
                 localStorage.setItem("minimizeChapters", this.minimizeChapters);
-                localStorage.setItem("showWatchOnYouTube", this.showWatchOnYouTube);
+                localStorage.setItem("showWatchOnTikTok", this.showWatchOnTikTok);
                 localStorage.setItem("searchSuggestions", this.searchSuggestions);
                 localStorage.setItem("watchHistory", this.watchHistory);
                 localStorage.setItem("searchHistory", this.searchHistory);
