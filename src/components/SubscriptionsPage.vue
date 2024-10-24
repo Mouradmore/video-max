@@ -195,7 +195,7 @@ export default {
             const subscriptions = [];
             this.subscriptions.forEach(subscription => {
                 subscriptions.push({
-                    url: "https://www.youtube.com" + subscription.url,
+                    url: "https://www.tiktok.com" + subscription.url,
                     name: subscription.name,
                     service_id: 0,
                 });
