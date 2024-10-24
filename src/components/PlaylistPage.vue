@@ -32,7 +32,7 @@
                 <a class="btn mr-1" :href="getRssUrl">
                     <i class="i-fa6-solid:rss" />
                 </a>
-                <WatchOnButton :link="`https://www.youtube.com/playlist?list=${$route.query.list}`" />
+                <WatchOnButton :link="`https://www.tiktok.com/playlist?list=${$route.query.list}`" />
             </div>
         </div>
 
