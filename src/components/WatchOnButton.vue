@@ -8,7 +8,7 @@ export default {
         platform: {
             type: String,
             required: false,
-            default: "YouTube",
+            default: "TikTok",
         },
     },
 };
