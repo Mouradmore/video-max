@@ -179,8 +179,8 @@ export default {
                 type: "playlist",
                 // as Invidious supports public and private playlists
                 visibility: "private",
-                // list of the videos, starting with "https://youtube.com" to clarify that those are YT videos
-                videos: playlist.relatedStreams.map(stream => "https://youtube.com" + stream.url),
+                // list of the videos, starting with "https://tiktok.com" to clarify that those are YT videos
+                videos: playlist.relatedStreams.map(stream => "https://tiktok.com" + stream.url),
             };
         },
         async importPlaylists() {
